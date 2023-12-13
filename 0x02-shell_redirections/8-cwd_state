@@ -1,0 +1,4 @@
+#!/bin/bash
+#variable is the result of ls -la
+result=`ls -la `
+echo "$result" > ls_cwd_content  
